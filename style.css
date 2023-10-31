@@ -26,19 +26,25 @@
 #links {
     color: #E5E7EB;
     font-size: 18px;
-    margin-left: 600px;
     gap: 20px;
+    display: flex;
+    flex: auto;
+    justify-content: flex-end;
+    margin-right: 200px;
 }
 
 #presentation {
     margin-left: 100px;
     margin-top: 70px;
     display: flex;
+    margin-right: 200px;
 }
 
-#presentation img {
-    margin-left: 350px;
-    margin-bottom: 100px;
+#presentation #placeholder {
+    display: flex;
+    flex: auto;
+    justify-content: flex-end;
+    margin-bottom: 80px;
 }
 
 #title {
